@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Boas vindas ao meu container!</title>
+    <style>
+        html {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: auto;
+            background-color: #5CADFF;
+            color: #0E3261;
+            max-width: 60%;
+        }
+        div {
+            box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.281);
+        }
+        .info {
+            color: #BBE8F2;
+            background-color: #3D9DD9;
+            padding: 2.5%;
+            border-radius: 2%;
+        }
+        #text {
+            color: #0E3261;
+            background-color: #cdf6ff;
+            padding: 2.5%;
+            border-radius: 2%;
+            margin: 2% 0;
+        }
+        p {
+            text-align: justify;
+        }
+        a.button {
+            display: block;
+            padding: 12px 24px;
+            font-size: 18px;
+            color: white;
+            background-color: #0E3261;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        a.button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class = "info">
+        <h1>Olá!</h1>
+        <h2>Boas vindas ao container de Ícaro Sanches!</h2>
+        <a class="button" href="https:/riss.com.br">riss.com.br</a>
+    </div>
+    <div id = "text">
+        <p>
+            Este container foi criado como solução ao desafio de projeto Criando 
+            um Container de uma Aplicação WEB da dio.</p>
+        <p>
+            O projeto proposto apresenta a implementação de um servidor apache em 
+            um container. Além desta configuração, também foi integrado um 
+            container com uma API em .NET de uma lista de tarefas, que roda em 
+            uma sessão de banco de dados local. 
+        </p>
+    </div>
+    <div class = "info">
+        <h3>
+            A API pode ser acessada pela interface do Swagger, no botão abaixo.
+        </h3>
+        <a class="button" href="/webapp_minapi/swagger/">Abrir Swagger</a>
+        <h3>
+            O repositório do Github pode ser acessado no botão abaixo.
+        </h3>
+        <a class="button" href="https://github.com/igfsa/docker-projeto1-dio">Github</a>
+        
+    </div>   
+</body>
+</html>
